@@ -30,4 +30,4 @@ I have some stuff online on Google Scholar and I'll add it when I feel like it
 
 ## Personal
 
-In my free time I'm an avid cyclist, mountainbiker, and runner. I also like to visit the mountains (although we do not have those in The Netherlands) to climb, hike, and ski. I also like to read books about economics and sometimes try to learn some extra mathematics by reading math textbooks. I live in Utrecht.
+In my free time I'm an avid cyclist, mountainbiker, and runner. I also like to visit the mountains (although we do not have those in The Netherlands) to climb, hike, and ski. I also like to read books about economics and sometimes try to learn some extra mathematics by reading math textbooks. I used to live in Rotterdam, now I live in Utrecht.
