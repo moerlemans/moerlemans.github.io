@@ -16,7 +16,7 @@ Older news can be found at [News](news.md)
 
 ## Experience
 
-My main work is in Python, specifically Pytorch. I'm learning the ropes of becoming an admin on our huge (Linux-based duh) GPU cluster. I have been speaking Dutch for the past ~26 years and speak some English and German as well. My Duolingo streak on Italian is 19 days at the moment of writing. My professional experience included a few internships and part-time jobs as a deep learning engineer at a start-up, quantitative financial researcher at a pension fund, and a mathematics tutor for high school students. Maybe if I am determined enough to figure out how to upload a real CV here, I will do it, but at the moment I'm not. Feel free to request it though.
+My main work is in Python, specifically Pytorch. I'm learning the ropes of becoming an admin on our huge (Linux-based, duh) GPU cluster. I have been speaking Dutch for the past ~26 years and speak some English and German as well. My Duolingo streak on Italian is 19 days at the moment of writing. My professional experience included a few internships and part-time jobs as a deep learning engineer at a start-up, quantitative financial researcher at a pension fund, and a mathematics tutor for high school students. Maybe if I am determined enough to figure out how to upload a real CV here, I will do it, but at the moment I'm not. Feel free to request it though.
 
 ## Education
 
@@ -29,7 +29,7 @@ My main work is in Python, specifically Pytorch. I'm learning the ropes of becom
 
 ## Publications and other publicly available work
 
-Well.... Hopefully, this will not be empty for a long time :stuck_out_tongue_winking_eye:
+Well.... Hopefully, this will not be empty for a long time 😜
 
 I have some stuff online on Google Scholar and I'll add it when I feel like it
 
