@@ -1,6 +1,4 @@
-# Marek Oerlemans
-
-My name is Marek and I do deep learning for cancer risk prediction. My main interests are in representational learning and I often read about generative AI as well. Also check out the website of the group I'm in at the Netherlands Cancer Institute: [aiforoncology.nl](aiforoncology.nl)
+My name is Marek and I do deep learning for cancer risk prediction. My main interests are in (stochastic) optimization and representational learning with applications in classification and segmentation. I often read about generative AI as well. Also check out the website of the AI for Oncology group I'm part of at the Netherlands Cancer Institute: [aiforoncology.nl](aiforoncology.nl)
 
 #### Contact
 
