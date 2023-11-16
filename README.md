@@ -2,11 +2,17 @@
 
 My name is Marek and I do deep learning for cancer risk prediction. My main interests are in representational learning and I often read about generative AI as well. Also check out the website of the group I'm in at the Netherlands Cancer Institute: [aiforoncology.nl](aiforoncology.nl)
 
-### Contact
+#### Contact
 
 If you have any interest or ideas relating to my work or my interests feel free to reach out to me.
 
 | [LinkedIn](https://nl.linkedin.com/in/marek-oerlemans-8756141ab) | [Email](mailto:m.oerlemans@nki.nl) | [Google Scholar](https://scholar.google.com/citations?user=VqffjqUAAAAJ) |
+
+#### News
+
+I will add the most current news items here.
+
+Older news can be found at [News](news.md)
 
 ## Experience
 
