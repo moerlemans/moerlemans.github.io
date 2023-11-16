@@ -7,7 +7,6 @@ My name is Marek and I do deep learning for cancer risk prediction. My main inte
 If you have any interest or ideas relating to my work or my interests feel free to reach out to me.
 
 | [LinkedIn](https://nl.linkedin.com/in/marek-oerlemans-8756141ab) | [Email](mailto:m.oerlemans@nki.nl) | [Google Scholar](https://scholar.google.com/citations?user=VqffjqUAAAAJ) |
-| :---:         |     :---:      |          :---: |
 
 ## Experience
 
