@@ -1,3 +1,8 @@
+---
+layout: default
+title: "On the equivalence of C-index and AUROC"
+---
+
 # On the equivalence of C-index and AUROC
 **By Marek Oerlemans**  
 _February 2025_
