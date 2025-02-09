@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "On the equivalence of C-index and AUROC"
 ---
 
