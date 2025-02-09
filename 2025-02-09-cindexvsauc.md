@@ -16,7 +16,7 @@ Although this fact has been known for a very long time—there are published art
 
 ## Definitions
 
-To start proving that the two quantities are equivalent, we first have to define them mathematically. Assume that we have some model dataset with $N$ samples: $\{(x_i, y_i)\}_{i=1}^N$. We have built a prediction model $f$ based on this set and define its output as $\hat{y}_i = f(x_i)$. The output of the model could be in $[0,1]$ (typical for a binary classifier), but we’ll keep it general and assume $\hat{y}_i \in (-\infty, \infty)$.
+To start proving that the two quantities are equivalent, we first have to define them mathematically. Assume that we have some model dataset with \(N\) samples: \(\{(x_i, y_i)\}_{i=1}^N\). We have built a prediction model \(f\) based on this set and define its output as \(\hat{y}_i = f(x_i)\). The output of the model could be in \([0,1]\) (typical for a binary classifier), but we’ll keep it general and assume \(\hat{y}_i \in (-\infty, \infty)\).
 
 ### C-index
 As we discussed, the concordance index (C-index) is informally defined as the probability that the score of a positive sample is higher than the score of a negative sample. In mathematical notation:
@@ -32,17 +32,17 @@ To define the AUROC we first recall:
 - **True Positive Rate (TPR)**:
 
   
-  $\text{TPR} = \frac{\text{TP}}{\text{TP} + \text{FN}} = \mathbb{P}(\hat{y}_i > t \,\mid\, y_i = 1).$
+  \(\text{TPR} = \frac{\text{TP}}{\text{TP} + \text{FN}} = \mathbb{P}(\hat{y}_i > t \,\mid\, y_i = 1).\)
 
 - **False Positive Rate (FPR)**:
 
-  $\text{FPR} = \frac{\text{FP}}{\text{TN} + \text{FP}} = \mathbb{P}(\hat{y}_i > t \,\mid\, y_i = 0).$
+  \(\text{FPR} = \frac{\text{FP}}{\text{TN} + \text{FP}} = \mathbb{P}(\hat{y}_i > t \,\mid\, y_i = 0).\)
 
 Both depend on the chosen threshold \(t\). The ROC curve is a plot of (FPR, TPR) pairs at different thresholds \(t\), as seen in the figure below.
 
 ![An ROC curve. The orange line denotes the output of a classification model; the blue line is the line a random chance model would get. [Source](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/).](rocplot.png)
 
-The area under the ROC curve is abbreviated as AUC or AUROC, taking values in $[0.5,1]$. A perfect classifier achieves 1.0, random guessing yields 0.5. Formally:
+The area under the ROC curve is abbreviated as AUC or AUROC, taking values in \([0.5,1]\). A perfect classifier achieves 1.0, random guessing yields 0.5. Formally:
 
 $$
 \text{AUC} = \int_0^1 \text{TPR}(\text{FPR}) d(\text{FPR}).
@@ -56,16 +56,13 @@ $$
 \text{AUC} = \int_0^1 \text{TPR}\bigl(\text{FPR}\bigr) d\text{FPR}.
 $$
 
-We do a change of variable so that $u = \text{FPR}(t)$. In more detail, we note:
+We do a change of variable so that \(u = \text{FPR}(t)\). In more detail, we note:
 
 > **Derivative of the FPR**  
 > $$
-> \begin{aligned}
-> \frac{d}{dt}\text{FPR}(t) &= \frac{d}{dt}\mathbb{P}(\hat{y} > t \mid y=0) \\
-> &= p(t \mid y=0),
-> \end{aligned}
+> \frac{d}{dt}\text{FPR}(t) = \frac{d}{dt}\mathbb{P}(\hat{y} > t \mid y=0) = p(t \mid y=0),
 > $$  
-> where $p(t \mid y=0)$ is the probability density function (pdf) of the model score for negative samples.
+> where \(p(t \mid y=0)\) is the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function) of the model score for negative samples.
 
 
 Hence, we can rewrite:
@@ -75,7 +72,7 @@ $$
 = \int_{-\infty}^{\infty} \text{TPR}(t) p(t \mid y=0) dt.
 $$
 
-Recalling $\text{TPR}(t) = \mathbb{P}(\hat{y}>t \mid y=1)$, we get:
+Recalling \(\text{TPR}(t) = \mathbb{P}(\hat{y}>t \mid y=1)\), we get:
 
 $$
 \text{AUC} 
@@ -84,7 +81,7 @@ $$
 = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} \mathbb{1}(s > t) p(t \mid y=0) p(s \mid y=1) dt ds.
 $$
 
-Where we used the indicator function $1\(\cdot\)$, which equals one when the argument is satisfied and zero otherwise.
+Where we used the indicator function \(1(\cdot)\), which equals one when the argument is satisfied and zero otherwise.
 
 Recognizing this last integral is exactly:
 
