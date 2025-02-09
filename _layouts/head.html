@@ -1,18 +1,10 @@
 <html>
 	<head>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-		<script type="text/javascript" id="MathJax-script" async
-  			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  		</script>
+		{% if page.use_math %}
+		{% include mathjax_support.html %}
+		{% endif %}
 
-		<script>
-		  MathJax = {
- 		   tex: {
- 		     inlineMath: [['$', '$'], ['$`', '`$'], ['\\(', '\\)']],
-		      displayMath: [['```math', '```'], ['$$', '$$'], ['\\[', '\\]']]
-		    }
-		  };
-		</script>
 	</head>
 </html>
 
