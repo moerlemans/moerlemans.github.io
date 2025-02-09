@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "On the equivalence of C-index and AUROC"
+use_math: true
 ---
 
 # On the equivalence of C-index and AUROC
