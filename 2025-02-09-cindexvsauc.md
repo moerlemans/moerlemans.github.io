@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "On the equivalence of C-index and AUROC"
 ---
 
@@ -15,7 +15,7 @@ Although this fact has been known for a very long time—there are published art
 
 ## Definitions
 
-To start proving that the two quantities are equivalent, we first have to define them mathematically. Assume that we have some model dataset with $N$ samples: $\(\{(x_i, y_i)\}_{i=1}^N\)$. We have built a prediction model $f$ based on this set and define its output as $\hat{y}_i = f(x_i)$. The output of the model could be in $[0,1]$ (typical for a binary classifier), but we’ll keep it general and assume $\hat{y}_i \in (-\infty, \infty)$.
+To start proving that the two quantities are equivalent, we first have to define them mathematically. Assume that we have some model dataset with $N$ samples: $\{(x_i, y_i)\}_{i=1}^N$. We have built a prediction model $f$ based on this set and define its output as $\hat{y}_i = f(x_i)$. The output of the model could be in $[0,1]$ (typical for a binary classifier), but we’ll keep it general and assume $\hat{y}_i \in (-\infty, \infty)$.
 
 ### C-index
 As we discussed, the concordance index (C-index) is informally defined as the probability that the score of a positive sample is higher than the score of a negative sample. In mathematical notation:
