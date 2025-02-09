@@ -4,5 +4,5 @@ plugins:
 title: Marek Oerlemans
 description: Find out about my work
 logo: logo.png
-markdown: maruku
+markdown: kramdown
 
