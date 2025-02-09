@@ -12,7 +12,7 @@ If you have any interest or ideas relating to my work or my interests feel free 
 
 Occasionally, if I find something interesting to write about such as my work as a PhD student or mathematical facts I found out I'll post them here.
 
-- [Working out the equivalence of the AUC and the C-index](site.posts[0].url)
+- [Working out the equivalence of the AUC and the C-index](_posts/2025-02-09-cindexvsauc.md)
 
 ## Experience
 
