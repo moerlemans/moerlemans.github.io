@@ -5,4 +5,7 @@ title: Marek Oerlemans
 description: Find out about my work
 logo: logo.png
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
 
