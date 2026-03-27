@@ -63,11 +63,13 @@ $$
 
 We do a change of variable so that $u = \text{FPR}(t)$. In more detail, we note:
 
-> **Derivative of the FPR**
-> $$
-> \frac{d}{dt}\text{FPR}(t) = \frac{d}{dt}\mathbb{P}(\hat{y} > t \mid y=0) = p(t \mid y=0),
-> $$
-> where $p(t \mid y=0)$ is the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function) of the model score for negative samples.
+**Derivative of the FPR:**
+
+$$
+\frac{d}{dt}\text{FPR}(t) = \frac{d}{dt}\mathbb{P}(\hat{y} > t \mid y=0) = p(t \mid y=0),
+$$
+
+where $p(t \mid y=0)$ is the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function) of the model score for negative samples.
 
 
 Hence, we can rewrite:
