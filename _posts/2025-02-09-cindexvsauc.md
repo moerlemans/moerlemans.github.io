@@ -5,7 +5,7 @@ use_math: true
 ---
 
 # On the equivalence of C-index and AUROC
-**By Marek Oerlemans**  
+**By Marek Oerlemans**
 _February 2025_
 
 ## Introduction
@@ -16,13 +16,13 @@ Although this fact has been known for a very long time—there are published art
 
 ## Definitions
 
-To start proving that the two quantities are equivalent, we first have to define them mathematically. Assume that we have some model dataset with \(N\) samples: \(\{(x_i, y_i)\}_{i=1}^N\). We have built a prediction model \(f\) based on this set and define its output as \(\hat{y}_i = f(x_i)\). The output of the model could be in \([0,1]\) (typical for a binary classifier), but we’ll keep it general and assume \(\hat{y}_i \in (-\infty, \infty)\).
+To start proving that the two quantities are equivalent, we first have to define them mathematically. Assume that we have some model dataset with $N$ samples: $\{(x_i, y_i)\}_{i=1}^N$. We have built a prediction model $f$ based on this set and define its output as $\hat{y}_i = f(x_i)$. The output of the model could be in $[0,1]$ (typical for a binary classifier), but we'll keep it general and assume $\hat{y}_i \in (-\infty, \infty)$.
 
 ### C-index
 As we discussed, the concordance index (C-index) is informally defined as the probability that the score of a positive sample is higher than the score of a negative sample. In mathematical notation:
 
 $$
-\text{C-index} = \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i > y_j) 
+\text{C-index} = \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i > y_j)
 = \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i = 1, y_j=0).
 $$
 
@@ -31,18 +31,21 @@ To define the AUROC we first recall:
 
 - **True Positive Rate (TPR)**:
 
-  
-  \(\text{TPR} = \frac{\text{TP}}{\text{TP} + \text{FN}} = \mathbb{P}(\hat{y}_i > t \,\mid\, y_i = 1).\)
+$$
+\text{TPR} = \frac{\text{TP}}{\text{TP} + \text{FN}} = \mathbb{P}(\hat{y}_i > t \mid y_i = 1).
+$$
 
 - **False Positive Rate (FPR)**:
 
-  \(\text{FPR} = \frac{\text{FP}}{\text{TN} + \text{FP}} = \mathbb{P}(\hat{y}_i > t \,\mid\, y_i = 0).\)
+$$
+\text{FPR} = \frac{\text{FP}}{\text{TN} + \text{FP}} = \mathbb{P}(\hat{y}_i > t \mid y_i = 0).
+$$
 
-Both depend on the chosen threshold \(t\). The ROC curve is a plot of (FPR, TPR) pairs at different thresholds \(t\), as seen in the figure below.
+Both depend on the chosen threshold $t$. The ROC curve is a plot of (FPR, TPR) pairs at different thresholds $t$, as seen in the figure below.
 
 ![An ROC curve. The orange line denotes the output of a classification model; the blue line is the line a random chance model would get. [Source](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/).](rocplot.png)
 
-The area under the ROC curve is abbreviated as AUC or AUROC, taking values in \([0.5,1]\). A perfect classifier achieves 1.0, random guessing yields 0.5. Formally:
+The area under the ROC curve is abbreviated as AUC or AUROC, taking values in $[0.5,1]$. A perfect classifier achieves 1.0, random guessing yields 0.5. Formally:
 
 $$
 \text{AUC} = \int_0^1 \text{TPR}(\text{FPR}) d(\text{FPR}).
@@ -56,32 +59,34 @@ $$
 \text{AUC} = \int_0^1 \text{TPR}\bigl(\text{FPR}\bigr) d\text{FPR}.
 $$
 
-We do a change of variable so that \(u = \text{FPR}(t)\). In more detail, we note:
+We do a change of variable so that $u = \text{FPR}(t)$. In more detail, we note:
 
-> **Derivative of the FPR**  
+> **Derivative of the FPR**
 > $$
 > \frac{d}{dt}\text{FPR}(t) = \frac{d}{dt}\mathbb{P}(\hat{y} > t \mid y=0) = p(t \mid y=0),
-> $$  
-> where \(p(t \mid y=0)\) is the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function) of the model score for negative samples.
+> $$
+> where $p(t \mid y=0)$ is the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function) of the model score for negative samples.
 
 
 Hence, we can rewrite:
 
 $$
-\text{AUC} 
+\text{AUC}
 = \int_{-\infty}^{\infty} \text{TPR}(t) p(t \mid y=0) dt.
 $$
 
-Recalling \(\text{TPR}(t) = \mathbb{P}(\hat{y}>t \mid y=1)\), we get:
+Recalling $\text{TPR}(t) = \mathbb{P}(\hat{y}>t \mid y=1)$, we get:
 
 $$
-\text{AUC} 
-= \int_{-\infty}^{\infty} \Bigl[\mathbb{P}(\hat{y} > t \mid y=1)\Bigr] p(t \mid y=0) dt 
-= \int_{-\infty}^{\infty} \int_{t}^{\infty} p(s \mid y=1) ds  p(t \mid y=0) dt
-= \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} \mathbb{1}(s > t) p(t \mid y=0) p(s \mid y=1) dt ds.
+\begin{aligned}
+\text{AUC}
+&= \int_{-\infty}^{\infty} \Bigl[\mathbb{P}(\hat{y} > t \mid y=1)\Bigr] p(t \mid y=0)\, dt \\
+&= \int_{-\infty}^{\infty} \int_{t}^{\infty} p(s \mid y=1)\, ds \; p(t \mid y=0)\, dt \\
+&= \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} \mathbb{1}(s > t)\, p(t \mid y=0)\, p(s \mid y=1)\, dt\, ds.
+\end{aligned}
 $$
 
-Where we used the indicator function \(1(\cdot)\), which equals one when the argument is satisfied and zero otherwise.
+Where we used the indicator function $\mathbb{1}(\cdot)$, which equals one when the argument is satisfied and zero otherwise.
 
 Recognizing this last integral is exactly:
 
@@ -97,6 +102,4 @@ $$
 
 ## Closing words
 
-Although this exercise might be trivial for many, I found it useful to work out once. Hopefully you’ve learned something as well. Not only is it well known that the AUC and C-index are equivalent, but another well-known connection is to the [Mann–Whitney U test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test), a nonparametric test to see if values from one group tend to be greater than values from another group. We'll leave figuring this connection out as an exercise to the reader. Hint: use the definition of the c-index and write the U statistic as the sum of an indicator function over the positive and negative samples.
-
-PS I'm still getting the hang of writing maths in markdown here on github pages. Sorry for weird formatting
+Although this exercise might be trivial for many, I found it useful to work out once. Hopefully you've learned something as well. Not only is it well known that the AUC and C-index are equivalent, but another well-known connection is to the [Mann–Whitney U test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test), a nonparametric test to see if values from one group tend to be greater than values from another group. We'll leave figuring this connection out as an exercise to the reader. Hint: use the definition of the c-index and write the U statistic as the sum of an indicator function over the positive and negative samples.
