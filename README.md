@@ -16,7 +16,7 @@ Occasionally, if I find something interesting to write about such as my work as 
 
 ## Experience
 
-My main work is in Python, specifically Pytorch. I'm an admin of our Linux-based Slurm GPU cluster. I have been speaking Dutch for the past ~27 years and speak some English and German as well. My Duolingo streak on Italian is over 450 days at the moment of writing. My professional experience included internships and part-time jobs as a deep learning engineer at a start-up, quantitative financial researcher at a pension fund, and a mathematics tutor for pre-university students.
+My main work is in Python, specifically Pytorch. I'm an admin of our Slurm GPU cluster. I have been speaking Dutch for the past ~27 years and speak some English and German as well. My Duolingo streak on Italian is over 450 days at the moment of writing. My professional experience included internships and part-time jobs as a deep learning engineer at a start-up, quantitative financial researcher at a pension fund, and a mathematics tutor for pre-university students.
 
 ## Education
 
