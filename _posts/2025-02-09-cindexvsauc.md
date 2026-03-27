@@ -22,8 +22,10 @@ To start proving that the two quantities are equivalent, we first have to define
 As we discussed, the concordance index (C-index) is informally defined as the probability that the score of a positive sample is higher than the score of a negative sample. In mathematical notation:
 
 $$
-\text{C-index} = \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i > y_j)
-= \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i = 1, y_j=0).
+\begin{aligned}
+\text{C-index} &= \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i > y_j) \\
+&= \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i = 1, y_j=0).
+\end{aligned}
 $$
 
 ### AUROC
@@ -43,7 +45,7 @@ $$
 
 Both depend on the chosen threshold $t$. The ROC curve is a plot of (FPR, TPR) pairs at different thresholds $t$, as seen in the figure below.
 
-![An ROC curve. The orange line denotes the output of a classification model; the blue line is the line a random chance model would get. [Source](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/).](rocplot.png)
+![An ROC curve. The orange line denotes the output of a classification model; the blue line is the line a random chance model would get. [Source](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/).](/rocplot.png)
 
 The area under the ROC curve is abbreviated as AUC or AUROC, taking values in $[0.5,1]$. A perfect classifier achieves 1.0, random guessing yields 0.5. Formally:
 
@@ -61,11 +63,13 @@ $$
 
 We do a change of variable so that $u = \text{FPR}(t)$. In more detail, we note:
 
-> **Derivative of the FPR**
-> $$
-> \frac{d}{dt}\text{FPR}(t) = \frac{d}{dt}\mathbb{P}(\hat{y} > t \mid y=0) = p(t \mid y=0),
-> $$
-> where $p(t \mid y=0)$ is the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function) of the model score for negative samples.
+**Derivative of the FPR:**
+
+$$
+\frac{d}{dt}\text{FPR}(t) = \frac{d}{dt}\mathbb{P}(\hat{y} > t \mid y=0) = p(t \mid y=0),
+$$
+
+where $p(t \mid y=0)$ is the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function) of the model score for negative samples.
 
 
 Hence, we can rewrite:
