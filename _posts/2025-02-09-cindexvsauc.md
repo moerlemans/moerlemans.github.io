@@ -43,7 +43,7 @@ $$
 
 Both depend on the chosen threshold $t$. The ROC curve is a plot of (FPR, TPR) pairs at different thresholds $t$, as seen in the figure below.
 
-![An ROC curve. The orange line denotes the output of a classification model; the blue line is the line a random chance model would get. [Source](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/).](rocplot.png)
+![An ROC curve. The orange line denotes the output of a classification model; the blue line is the line a random chance model would get. [Source](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/).](/rocplot.png)
 
 The area under the ROC curve is abbreviated as AUC or AUROC, taking values in $[0.5,1]$. A perfect classifier achieves 1.0, random guessing yields 0.5. Formally:
 
