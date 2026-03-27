@@ -22,8 +22,10 @@ To start proving that the two quantities are equivalent, we first have to define
 As we discussed, the concordance index (C-index) is informally defined as the probability that the score of a positive sample is higher than the score of a negative sample. In mathematical notation:
 
 $$
-\text{C-index} = \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i > y_j)
-= \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i = 1, y_j=0).
+\begin{aligned}
+\text{C-index} &= \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i > y_j) \\
+&= \mathbb{P}(\hat{y}_i > \hat{y}_j \mid y_i = 1, y_j=0).
+\end{aligned}
 $$
 
 ### AUROC
