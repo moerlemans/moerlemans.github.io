@@ -46,7 +46,7 @@ Occasionally, if I find something interesting to write about such as my work as 
 
 ## Stack
 
-Python (PyTorch, scikit-learn, OpenCV), C++/CUDA, Linux, Slurm, Git, SQL
+Python (PyTorch, scikit-learn, OpenCV), C++/CUDA, Linux, Slurm, Git, SQL — and Dutch, English, German, plus enough Italian to order coffee.
 
 ## Education
 
@@ -59,4 +59,4 @@ Python (PyTorch, scikit-learn, OpenCV), C++/CUDA, Linux, Slurm, Git, SQL
 
 ## Personal
 
-Outside of work, I enjoy cycling, mountain biking, and running, and getting to the mountains to hike, climb, or ski. I raced competitively as a rower for several years and was part of the operations committee for the 2024 FISU World University Rowing Championship in Rotterdam. I speak Dutch, English, and German, and am currently learning Italian. I live in Utrecht.
+Outside of work, I enjoy cycling, mountain biking, running, and rowing, and getting to the mountains to hike, climb, or ski. I live in Utrecht.
