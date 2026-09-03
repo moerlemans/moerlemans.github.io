@@ -46,7 +46,7 @@ Occasionally, if I find something interesting to write about such as my work as 
 
 ## Stack
 
-Python (PyTorch, scikit-learn, OpenCV), C++/CUDA, Linux, Slurm, Git, SQL — and Dutch, English, German, plus enough Italian to order coffee.
+Python (PyTorch, scikit-learn, OpenCV), C++/CUDA, Linux, Slurm, Git, SQL, R — and Dutch, English, German, plus enough Italian to order coffee.
 
 ## Education
 
