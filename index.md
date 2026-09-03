@@ -11,7 +11,6 @@ If you have any interest or ideas relating to my work or my interests feel free 
 
 | [LinkedIn](https://nl.linkedin.com/in/marek-oerlemans-8756141ab) | [Email](mailto:m.oerlemans@nki.nl) | [Google Scholar](https://scholar.google.com/citations?user=VqffjqUAAAAJ) |
 | :---: | :---: | :---: |
-| |
 
 #### Blog
 
@@ -21,9 +20,25 @@ Occasionally, if I find something interesting to write about such as my work as 
 - [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%B %Y" }}
 {% endfor %}
 
+#### Papers
+
+- S. Doyle, **M.A. Oerlemans**, et al. (2026). *Enabling DCIS subtyping: leveraging foundation models for robust grading and molecular biomarker scoring.* npj Breast Cancer. [doi.org/10.1038/s41523-026-00957-6](https://doi.org/10.1038/s41523-026-00957-6)
+- **M. Oerlemans**, et al. (2026). *Deep Multiple Instance Learning Predicts Gene Expression from Whole Slide Images in Ductal Carcinoma In Situ.* Medical Imaging with Deep Learning (MIDL), Short Paper Track. [openreview.net](https://openreview.net/pdf?id=Hui8S4f6oT)
+
+#### Talks & Posters
+
+| When | What | Where |
+| --- | --- | --- |
+| Nov 2023 | Biomarkers project | Cancer Grand Challenges, Future Leaders Conference |
+| May 2025 | Biomarkers project | Early Detection Conference |
+| Jun 2025 | Biomarkers project | ECDP |
+| Jun 2025 | Biomarkers project | Sanquin |
+| Jan 2026 | Multimodal risk prediction for DCIS: combining H&E and gene expression (spotlight presentation) | NKI |
+| Jul 2026 | Gene expression from whole slide images | MIDL |
+
 ## Experience
 
-My main work is in Python, specifically Pytorch. I'm an admin of our Slurm GPU cluster. I have been speaking Dutch for the past ~27 years and speak some English and German as well. My Duolingo streak on Italian is over 450 days at the moment of writing. My professional experience included internships and part-time jobs as a deep learning engineer at a start-up, quantitative financial researcher at a pension fund, and a mathematics tutor for pre-university students.
+My main work is in Python, specifically PyTorch. I'm an admin of our Slurm GPU cluster. I speak Dutch, English, and German, and am currently learning Italian. My professional experience includes internships and part-time roles as a deep learning engineer at a start-up, a quantitative financial researcher at a pension fund, and a mathematics tutor for pre-university students.
 
 ## Education
 
@@ -34,10 +49,6 @@ My main work is in Python, specifically Pytorch. I'm an admin of our Slurm GPU c
 |2019 - 2021| MSc Econometrics: Quantitative Finance at Erasmus University Rotterdam. |  |
 |2016 - 2019| BSc Econometrics and Operations Research at Erasmus University Rotterdam. | |
 
-## Publications and other publicly available work
-
-Well.... This is were I'd put my publications if I had any 😜
-
 ## Personal
 
-In my free time I'm an avid cyclist, mountainbiker, and runner. I also like to visit the mountains (although we do not have those in The Netherlands) to climb, hike, and ski. When I'm sitting down I like to read books about chess and economics. I used to live in Rotterdam, now I live in Utrecht.
+Outside of work, I enjoy cycling, mountain biking, and running, and getting to the mountains to hike, climb, or ski. I live in Utrecht.
