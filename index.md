@@ -3,7 +3,7 @@ layout: default
 title: Marek Oerlemans
 ---
 
-I'm Marek, and I work on deep learning for cancer risk prediction, with a focus on (stochastic) optimization and representation learning for classification and segmentation. I'm part of the AI for Oncology group at the Netherlands Cancer Institute — see [aiforoncology.nl](https://www.aiforoncology.nl/) for more on our work.
+I'm Marek, and I work on deep learning for cancer risk prediction, with a focus on representation learning for pathology. I'm part of the AI for Oncology group at the Netherlands Cancer Institute — see [aiforoncology.nl](https://www.aiforoncology.nl/) for more on our work.
 
 #### Contact
 
