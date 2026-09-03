@@ -46,9 +46,9 @@ Occasionally, if I find something interesting to write about such as my work as 
 
 ## Stack
 
-- **ML/DL**: Python (PyTorch, scikit-learn, OpenCV), distributed training, C++/CUDA
+- **ML/DL**: Python (PyTorch, scikit-learn, OpenCV), distributed training (DDP, FSDP), MLflow, C++/CUDA
 - **Infra**: Linux, Slurm
-- **CI/CD**: Git, pytest, GitHub Actions
+- **CI/CD**: Git, pytest, GitHub Actions, mypy, ruff
 - **Data**: SQL, R
 
 And Dutch, English, German, plus enough Italian to order coffee.
