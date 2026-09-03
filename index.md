@@ -3,7 +3,7 @@ layout: default
 title: Marek Oerlemans
 ---
 
-My name is Marek and I do deep learning for cancer risk prediction. My main interests are in (stochastic) optimization and representational learning with applications in classification and segmentation. Also check out the website of the AI for Oncology group I'm part of at the Netherlands Cancer Institute: [aiforoncology.nl](https://www.aiforoncology.nl/)
+I'm Marek, and I work on deep learning for cancer risk prediction, with a focus on (stochastic) optimization and representation learning for classification and segmentation. I'm part of the AI for Oncology group at the Netherlands Cancer Institute — see [aiforoncology.nl](https://www.aiforoncology.nl/) for more on our work.
 
 #### Contact
 
@@ -22,19 +22,21 @@ Occasionally, if I find something interesting to write about such as my work as 
 
 #### Papers
 
-- S. Doyle, **M.A. Oerlemans**, et al. (2026). *Enabling DCIS subtyping: leveraging foundation models for robust grading and molecular biomarker scoring.* npj Breast Cancer. [doi.org/10.1038/s41523-026-00957-6](https://doi.org/10.1038/s41523-026-00957-6)
+- S. Doyle\*, **M.A. Oerlemans**\*, et al. (2026). *Enabling DCIS subtyping: leveraging foundation models for robust grading and molecular biomarker scoring.* npj Breast Cancer. [doi.org/10.1038/s41523-026-00957-6](https://doi.org/10.1038/s41523-026-00957-6)
+
+  \* Shared first authors
 - **M. Oerlemans**, et al. (2026). *Deep Multiple Instance Learning Predicts Gene Expression from Whole Slide Images in Ductal Carcinoma In Situ.* Medical Imaging with Deep Learning (MIDL), Short Paper Track. [openreview.net](https://openreview.net/pdf?id=Hui8S4f6oT)
 
 #### Talks & Posters
 
-| When | What | Where |
+| When | Where | What |
 | --- | --- | --- |
-| Nov 2023 | Biomarkers project | Cancer Grand Challenges, Future Leaders Conference |
-| May 2025 | Biomarkers project | Early Detection Conference |
-| Jun 2025 | Biomarkers project | ECDP |
-| Jun 2025 | Biomarkers project | Sanquin |
-| Jan 2026 | Multimodal risk prediction for DCIS: combining H&E and gene expression (spotlight presentation) | NKI |
-| Jul 2026 | Gene expression from whole slide images | MIDL |
+| Jul 2026 | MIDL | Deep Multiple Instance Learning Predicts Gene Expression from Whole Slide Images in Ductal Carcinoma In Situ |
+| Jan 2026 | NKI (spotlight talks) | Multimodal risk prediction for DCIS: combining H&E and gene expression |
+| Jun 2025 | ECDP | Enabling robust biomarkers to stop overtreatment |
+| Jun 2025 | Sanquin, bioinformatics meeting | Deep learning can see what pathologists cannot — predicting molecular biomarkers and grade in DCIS |
+| May 2025 | Early Detection Conference | Deep learning can see what pathologists cannot — predicting molecular biomarkers and grade in DCIS |
+| Nov 2023 | Cancer Grand Challenges, Future Leaders Conference | Predicting biomarkers for DCIS from WSI |
 
 ## Experience
 
