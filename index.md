@@ -51,7 +51,7 @@ Occasionally, if I find something interesting to write about such as my work as 
 - **CI/CD**: Git, pytest, GitHub Actions, mypy, ruff
 - **Data**: SQL, R
 
-And Dutch, English, German, plus enough Italian to order coffee.
+And Dutch, English, German, plus enough French and Italian to order coffee.
 
 ## Education
 
