@@ -40,7 +40,13 @@ Occasionally, if I find something interesting to write about such as my work as 
 
 ## Experience
 
-My main work is in Python, specifically PyTorch. I'm an admin of our Slurm GPU cluster. I speak Dutch, English, and German, and am currently learning Italian. My professional experience includes internships and part-time roles as a deep learning engineer at a start-up, a quantitative financial researcher at a pension fund, and a mathematics tutor for pre-university students.
+- **PhD in Deep Learning** — The Netherlands Cancer Institute, Amsterdam (2022–present, expected 2026). Developing deep learning methods for histopathology-based cancer recurrence risk prediction, spanning self-supervised learning, multiple instance learning, spatial point statistics, and high-dimensional regression. Organized the national PhD/PostDoc meeting in medical imaging; part of the admin team for a GPU cluster serving 100+ users across 64 GPUs.
+- **Deep Learning & Computer Vision Engineer** — Nico.Lab, Amsterdam (2021–2022). Moved the registration framework for brain CT scans from an iterative algorithm to a deep-learning-based one.
+- **Graduate Intern, Research & Analytics** — APG Asset Management, Amsterdam (2020). Solved a stochastic optimal control problem for portfolio rebalancing under price impact and translated it into trading rules for the portfolio management team.
+
+## Stack
+
+Python (PyTorch, scikit-learn, OpenCV), C++/CUDA, Linux, Slurm, Git, SQL
 
 ## Education
 
@@ -53,4 +59,4 @@ My main work is in Python, specifically PyTorch. I'm an admin of our Slurm GPU c
 
 ## Personal
 
-Outside of work, I enjoy cycling, mountain biking, and running, and getting to the mountains to hike, climb, or ski. I live in Utrecht.
+Outside of work, I enjoy cycling, mountain biking, and running, and getting to the mountains to hike, climb, or ski. I raced competitively as a rower for several years and was part of the operations committee for the 2024 FISU World University Rowing Championship in Rotterdam. I speak Dutch, English, and German, and am currently learning Italian. I live in Utrecht.
