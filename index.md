@@ -20,14 +20,14 @@ Occasionally, if I find something interesting to write about such as my work as 
 - [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%B %Y" }}
 {% endfor %}
 
-#### Papers
+#### Selected Papers
 
 - S. Doyle\*, **M.A. Oerlemans**\*, et al. (2026). *Enabling DCIS subtyping: leveraging foundation models for robust grading and molecular biomarker scoring.* npj Breast Cancer. [doi.org/10.1038/s41523-026-00957-6](https://doi.org/10.1038/s41523-026-00957-6)
 
   \* Shared first authors
 - **M. Oerlemans**, et al. (2026). *Deep Multiple Instance Learning Predicts Gene Expression from Whole Slide Images in Ductal Carcinoma In Situ.* Medical Imaging with Deep Learning (MIDL), Short Paper Track. [openreview.net](https://openreview.net/pdf?id=Hui8S4f6oT)
 
-#### Talks & Posters
+#### Presentations
 
 | When | Where | What |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Occasionally, if I find something interesting to write about such as my work as 
 ## Stack
 
 - **ML/DL**: Python (PyTorch, scikit-learn, OpenCV), distributed training (DDP, FSDP), MLflow, C++/CUDA
-- **Infra**: Linux, Slurm
+- **Infra**: Linux, Slurm, Ansible
 - **CI/CD**: Git, pytest, GitHub Actions, mypy, ruff
 - **Data**: SQL, R
 
