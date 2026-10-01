@@ -13,6 +13,7 @@ Interested in my work or have an idea to discuss? Feel free to reach out.
   <a href="mailto:m.oerlemans@nki.nl">Email</a>
   <a href="https://nl.linkedin.com/in/marek-oerlemans-8756141ab">LinkedIn</a>
   <a href="https://scholar.google.com/citations?user=VqffjqUAAAAJ">Google Scholar</a>
+  <a href="https://github.com/moerlemans">GitHub</a>
 </p>
 
 ## Blog
