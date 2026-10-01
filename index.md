@@ -5,14 +5,17 @@ title: Marek Oerlemans
 
 I'm Marek, and I work on deep learning for cancer risk prediction, with a focus on representation learning for pathology. I'm part of the AI for Oncology group at the Netherlands Cancer Institute — see [aiforoncology.nl](https://www.aiforoncology.nl/) for more on our work.
 
-#### Contact
+## Contact
 
-If you have any interest or ideas relating to my work or my interests feel free to reach out to me.
+Interested in my work or have an idea to discuss? Feel free to reach out.
 
-| [LinkedIn](https://nl.linkedin.com/in/marek-oerlemans-8756141ab) | [Email](mailto:m.oerlemans@nki.nl) | [Google Scholar](https://scholar.google.com/citations?user=VqffjqUAAAAJ) |
-| :---: | :---: | :---: |
+<p class="contact-links">
+  <a href="mailto:m.oerlemans@nki.nl">Email</a>
+  <a href="https://nl.linkedin.com/in/marek-oerlemans-8756141ab">LinkedIn</a>
+  <a href="https://scholar.google.com/citations?user=VqffjqUAAAAJ">Google Scholar</a>
+</p>
 
-#### Blog
+## Blog
 
 Occasionally, if I find something interesting to write about such as my work as a PhD student or mathematical facts I found out I'll post them here.
 
@@ -20,14 +23,14 @@ Occasionally, if I find something interesting to write about such as my work as 
 - [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%B %Y" }}
 {% endfor %}
 
-#### Selected Papers
+## Selected Papers
 
 - S. Doyle\*, **M.A. Oerlemans**\*, et al. (2026). *Enabling DCIS subtyping: leveraging foundation models for robust grading and molecular biomarker scoring.* npj Breast Cancer. [doi.org/10.1038/s41523-026-00957-6](https://doi.org/10.1038/s41523-026-00957-6)
 
   \* Shared first authors
 - **M. Oerlemans**, et al. (2026). *Deep Multiple Instance Learning Predicts Gene Expression from Whole Slide Images in Ductal Carcinoma In Situ.* Medical Imaging with Deep Learning (MIDL), Short Paper Track. [openreview.net](https://openreview.net/pdf?id=Hui8S4f6oT)
 
-#### Presentations
+## Presentations
 
 | When | Where | What |
 | --- | --- | --- |

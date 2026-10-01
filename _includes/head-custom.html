@@ -2,3 +2,14 @@
 {% if page.use_math %}
 {% include _mathjax_support.html %}
 {% endif %}
+<style>
+  .contact-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 20px; }
+  .contact-links a {
+    display: inline-block; padding: 6px 14px; border: 1px solid #267CB9;
+    border-radius: 999px; font-size: 14px; font-weight: 600; line-height: 1.4;
+    text-decoration: none; transition: background .15s, color .15s;
+  }
+  .contact-links a:hover, .contact-links a:focus { background: #267CB9; color: #fff; }
+  section h2 { margin-top: 32px; padding-bottom: 4px; border-bottom: 1px solid #e5e5e5; }
+  section table td:first-child { white-space: nowrap; }
+</style>
