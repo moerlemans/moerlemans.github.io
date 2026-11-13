@@ -10,3 +10,6 @@ kramdown:
   math_engine: mathjax
   input: GFM
 
+
+# GoatCounter site code (https://<code>.goatcounter.com). Remove to disable tracking.
+goatcounter: moerlemans
