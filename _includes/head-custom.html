@@ -13,3 +13,7 @@
   section h2 { margin-top: 32px; padding-bottom: 4px; border-bottom: 1px solid #e5e5e5; }
   section table td:first-child { white-space: nowrap; }
 </style>
+{% if site.goatcounter and jekyll.environment == "production" %}
+<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+{% endif %}
