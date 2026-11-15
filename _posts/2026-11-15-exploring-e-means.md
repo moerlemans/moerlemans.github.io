@@ -14,7 +14,9 @@ about a tenth of the work. It comes with tuned hyperparameters, scaling laws, an
 choice that made me stop and squint. This post is about that choice: what I expected it to do,
 what it actually does, and what happens when you take it apart.
 
-![The headline figure]({{ '/assets/exploring-e-means/fig0_headline.png' | relative_url }})
+![Three k-means methods in 2D]({{ '/assets/exploring-e-means/kmeans2d.gif' | relative_url }})
+
+*Mini-batch k-means, e-means and my centroid EMA++ on a 2D toy problem, from the same deliberately bad start (centres placed uniformly at random) and with the same batches. Grey: all data; coloured: the current batch; lines: the Voronoi cells of the centres. Below: the error relative to 25 iterations of Lloyd. Classic mini-batch k-means, here without revival as in the original algorithm, keeps its dead clusters and stalls; e-means and centroid EMA++ revive theirs and end up about level, as they did on real data.*
 
 ## From Lloyd to e-means
 
